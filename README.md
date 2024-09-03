@@ -38,5 +38,3 @@ Access to quality education remains a significant challenge for students with di
 
 ## Conclusion
 ### Samarth is more than just a learning platform—it's a movement towards a more inclusive and equitable educational system. By leveraging technology to address the unique needs of students with disabilities, Samarth is setting a new standard for what education can and should be in the 21st century.
-
-
