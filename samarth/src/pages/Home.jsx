@@ -1,17 +1,27 @@
+import React from "react";
+import homebg from "../assets/homebg.jpg";
+
 const Home = () => {
     return (
       <div className="min-h-screen bg-gradient-to-r from-blue-900 via-teal-700 to-blue-500 relative">
         {/* Welcome Section */}
-        <div id="home" className="relative flex flex-col items-center justify-center text-center min-h-screen px-6 md:px-12 lg:px-20 text-white">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-            Welcome to <span className="text-yellow-400">MedEase</span>
-          </h1>
-          <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-8">
+        <div id="home" className="relative flex flex-col items-center justify-center text-center min-h-screen px-6 md:px-12 lg:px-20 text-white
+        "style={{
+            backgroundImage: `url(${homebg})`,
+            backgroundSize: "cover", // Ensure the image covers the screen
+            backgroundPosition: "center", // Center the image
+            backgroundAttachment: "fixed", // Keep the background fixed while scrolling
+          }}>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-left text-white mb-6 w-full max-w-3xl">
+            Welcome to <span className="text-green-600">सmarth</span>
+            </h1>
+            <p className="text-lg md:text-2xl text-gray-200 leading-relaxed text-left mb-8 w-full max-w-3xl">
             Revolutionizing healthcare with emergency services, real-time consultations, AI-powered chatbot, and machine learning-based disease predictions.
-          </p>
-          <button className="px-6 py-3 bg-yellow-400 text-gray-800 rounded-lg font-semibold hover:bg-yellow-500 transition">
+            </p>
+            <button className="px-8 py-4 bg-yellow-400 text-gray-800 rounded-lg font-semibold shadow-lg hover:bg-yellow-500 transition-transform transform hover:scale-105 focus:outline-none">
             Learn More
-          </button>
+            </button>
+
         </div>
   
         {/* Emergency Medical Services */}
