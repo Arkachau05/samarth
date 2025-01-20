@@ -27,7 +27,7 @@ const LoginComponent = () => {
       if (response.token) {
         localStorage.setItem('token', response.token);
         toast.success('Login successful!');
-        setTimeout(() => navigate('/dashboard'), 1500); 
+        setTimeout(() => navigate('/'), 1500); 
       } else {
         toast.error(response.message || 'Login failed. Please check your credentials.');
       }

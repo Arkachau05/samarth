@@ -30,7 +30,7 @@ const Emergency3 = () => {
       setTranscript(finalTranscript);
 
       // Check for emergency keywords
-      if (finalTranscript.toLowerCase().includes('hello')) {
+      if (finalTranscript.toLowerCase().includes('emergency')) {
         toast.success('Emergency detected. Ambulance is on the way!');
         setShowAmbulance(true);
       }
