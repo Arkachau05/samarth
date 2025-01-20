@@ -17,6 +17,7 @@ const Footer = () => {
   };
 
   return (
+<<<<<<< HEAD
     <footer className="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 text-gray-700 dark:text-white py-12">
       <ToastContainer position="top-right" autoClose={3000} />
 
@@ -114,6 +115,13 @@ const Footer = () => {
               </button>
             </form>
           </div>
+=======
+    <footer className="bg-green-900 text-white py-6 px-4 mt-6">
+      <div className="flex justify-between items-center">
+        <div>
+          <h4 className="text-lg font-bold">सmarth</h4>
+          <p>© 2024 सmarth. All rights reserved.</p>
+>>>>>>> c88ee16b0486d2333aae9dae5c6a58e07510844d
         </div>
 
         

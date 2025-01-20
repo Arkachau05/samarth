@@ -3,13 +3,12 @@ import homebg from "../assets/homebg.jpg";
 const Home = () => {
     return (
       <div className="min-h-screen bg-gradient-to-r from-blue-900 via-teal-700 to-blue-500 relative">
-        {/* Welcome Section */}
         <div id="home" className="relative flex flex-col items-center justify-center text-center min-h-screen px-6 md:px-12 lg:px-20 text-white
         "style={{
             backgroundImage: `url(${homebg})`,
-            backgroundSize: "cover", // Ensure the image covers the screen
-            backgroundPosition: "center", // Center the image
-            backgroundAttachment: "fixed", // Keep the background fixed while scrolling
+            backgroundSize: "cover", 
+            backgroundPosition: "center",
+            backgroundAttachment: "fixed",
           }}>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-left text-white mb-6 w-full max-w-3xl">
             Welcome to <span className="text-green-600">सmarth</span>
@@ -23,7 +22,6 @@ const Home = () => {
 
         </div>
   
-        {/* Emergency Medical Services */}
         <section id="emergency" className="min-h-screen flex flex-col justify-center items-center bg-white text-gray-800 px-6 md:px-12 lg:px-20">
           <h2 className="text-3xl font-bold mb-4">Emergency Medical Services</h2>
           <p className="text-lg text-gray-600 text-center">
@@ -31,7 +29,6 @@ const Home = () => {
           </p>
         </section>
   
-        {/* Real-Time Consultation */}
         <section id="consultation" className="min-h-screen flex flex-col justify-center items-center bg-gray-100 text-gray-800 px-6 md:px-12 lg:px-20">
           <h2 className="text-3xl font-bold mb-4">Real-Time Consultation Queue</h2>
           <p className="text-lg text-gray-600 text-center">
@@ -39,7 +36,6 @@ const Home = () => {
           </p>
         </section>
   
-        {/* AI Chatbot */}
         <section id="chatbot" className="min-h-screen flex flex-col justify-center items-center bg-white text-gray-800 px-6 md:px-12 lg:px-20">
           <h2 className="text-3xl font-bold mb-4">AI-Powered Chatbot</h2>
           <p className="text-lg text-gray-600 text-center">
@@ -47,7 +43,6 @@ const Home = () => {
           </p>
         </section>
   
-        {/* Disease Prediction */}
         <section id="disease" className="min-h-screen flex flex-col justify-center items-center bg-gray-100 text-gray-800 px-6 md:px-12 lg:px-20">
           <h2 className="text-3xl font-bold mb-4">Disease Prediction</h2>
           <p className="text-lg text-gray-600 text-center">
