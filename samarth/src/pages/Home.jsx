@@ -1,4 +1,3 @@
-import React from "react";
 import homebg from "../assets/homebg.jpg";
 
 const Home = () => {
@@ -15,9 +14,9 @@ const Home = () => {
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-left text-white mb-6 w-full max-w-3xl">
             Welcome to <span className="text-green-600">सmarth</span>
             </h1>
-            <p className="text-lg md:text-2xl text-gray-200 leading-relaxed text-left mb-8 w-full max-w-3xl">
-            Revolutionizing healthcare with emergency services, real-time consultations, AI-powered chatbot, and machine learning-based disease predictions.
-            </p>
+            <p className="text-2xl md:text-3xl font-extrabold text-gray-100 leading-relaxed text-left mb-8 w-full max-w-3xl tracking-wide">
+  Revolutionizing healthcare with emergency services, real-time consultations, AI-powered chatbot, and machine learning-based disease predictions.
+</p>
             <button className="px-8 py-4 bg-yellow-400 text-gray-800 rounded-lg font-semibold shadow-lg hover:bg-yellow-500 transition-transform transform hover:scale-105 focus:outline-none">
             Learn More
             </button>
